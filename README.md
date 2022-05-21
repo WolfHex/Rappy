@@ -1,6 +1,7 @@
 # Rappy
-A HTML Template - Native CSS Only - by WolfHex
+A HTML Template with animation + animated background - Native CSS Only - by WolfHex
 
 ##Want to change background?
 Change the backg.mp4 file with your wallpaper!
-<iframe src="./index.html">
+
+<img src="prev.png">
