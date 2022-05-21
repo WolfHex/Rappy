@@ -1,2 +1,2 @@
 # Rappy
-A HTML Template - Native CSS Only
+A HTML Template - Native CSS Only - by WolfHex
