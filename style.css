@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 720;
+    min-height: 800;
+}
+
+.light-theme {
+    /**
+   * light theme colors 
+   */
+    --background-primary: hsl(0, 0%, 100%);
+    --background-secondary: hsl(0, 0%, 97%);
+    --action-primary: hsl(214, 32%, 91%);
+    --action-secondary: hsl(210, 38%, 95%);
+    --foreground-primary: hsl(218, 23%, 23%);
+    --foreground-secondary: hsl(216, 15%, 52%);
+    --foreground-tertiary: hsl(214, 20%, 69%);
+    --accent: hsl(229, 76%, 66%);
+}
+
+.dark-theme {
+    /**
+   * dark theme colors 
+   */
+    --background-primary: hsl(218, 23%, 23%);
+    --background-secondary: hsl(220, 26%, 14%);
+    --action-primary: hsl(216, 15%, 52%);
+    --action-secondary: hsl(218, 23%, 23%);
+    --foreground-primary: hsl(210, 38%, 95%);
+    --foreground-secondary: hsl(211, 25%, 84%);
+    --foreground-tertiary: hsl(214, 20%, 69%);
+    --accent: hsl(229, 76%, 66%);
+}
+
+:root {
+    /**
+   * color
+   */
+    --white: hsl(0, 0%, 100%);
+    /**
+   * typography 
+   */
+    --fs-base: 0.85rem;
+    --fs-1: 1.875rem;
+    --fs-2: 1.5rem;
+    --fs-3: 1.25rem;
+    --fs-4: 0.875rem;
+    --fs-5: 0.75rem;
+    /**
+   * spacing 
+   */
+    --py: 5rem;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+.boxic {
+    font-size: 50px;
+    background: linear-gradient(45deg, #2e73ff 20%, #ff0032 52%, #0c0c0f 95%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#back {
+    position: fixed;
+    right: 0;
+    z-index: -1;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.topnav {
+    position: sticky;
+    overflow: hidden;
+    background: transparent;
+}
+
+.topnav a {
+    float: right;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 26px 26px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    background: transparent;
+}
+
+.container h1 {
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5%;
+    animation: flow 10s ease-in-out infinite;
+    background: linear-gradient(45deg, #2e73ff 20%, #ff0032 52%, #0c0c0f 95%);
+    background-size: 300%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container p {
+    color: #f2f2f2;
+    font-size: 18px;
+    text-align: center;
+}
+
+.container .btn1 {
+    position: absolute;
+    background: #1a5ce0;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    left: 34.5%;
+    top: 40%;
+    width: 17%;
+    height: 8%;
+    color: #f2f2f2;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.container .btn1:hover {
+    transform: translateY(-5px);
+}
+
+.container .btn2:hover {
+    transform: translateY(-5px);
+}
+
+.container .btn2 {
+    position: absolute;
+    background: #3b3b3b;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    left: 52%;
+    top: 40%;
+    width: 12%;
+    height: 8%;
+    color: #f2f2f2;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.box1 {
+    cursor: pointer;
+    position: absolute;
+    top: 52%;
+    left: 5%;
+    background: transparent;
+    color: #fff;
+    border-radius: 10px;
+    width: 15%;
+    text-align: center;
+    height: 20%;
+    transition: all 0.4s;
+}
+
+.box1 h1 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.box2 {
+    cursor: pointer;
+    position: absolute;
+    top: 52%;
+    left: 30%;
+    background: transparent;
+    color: #fff;
+    border-radius: 10px;
+    width: 15%;
+    text-align: center;
+    height: 20%;
+    transition: all 0.4s;
+}
+
+.box2 h1 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.box3 {
+    cursor: pointer;
+    position: absolute;
+    top: 52%;
+    left: 55%;
+    background: transparent;
+    color: #fff;
+    border-radius: 10px;
+    width: 15%;
+    text-align: center;
+    height: 20%;
+    transition: all 0.4s;
+}
+
+.box3 h1 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.box4 {
+    cursor: pointer;
+    position: absolute;
+    top: 52%;
+    left: 80%;
+    background: transparent;
+    color: #fff;
+    border-radius: 10px;
+    width: 15%;
+    text-align: center;
+    height: 20%;
+    transition: all 0.4s;
+}
+
+.box4 h1 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover {
+    transform: translateY(-8px);
+}
+
+@keyframes flow {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
